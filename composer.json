@@ -1,0 +1,35 @@
+{
+  "name": "revision6/nikola",
+  "description": "The example module for building composer based contao extensions.",
+  "type": "contao-module",
+  "authors": [
+    {
+      "name": "Christopher Bölter",
+      "email": "c.boelter@revision6.de",
+      "homepage": "https://revision6.de"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "contao/core": ">3.4.3,<4.0",
+    "contao-community-alliance/composer-plugin": "~2.0"
+  },
+  "require-dev": {
+    "phpcq/all-tasks": "~1.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Revision6\\Nikola": "src/"
+    }
+  },
+  "extra": {
+    "contao": {
+      "sources": {
+        "contao": "system/modules/nikola"
+      }
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "proprietary"
+}

@@ -1,0 +1,9 @@
+<?php foreach($this->nikolas as $nikola): ?>
+
+    <?php echo $nikola['title']; ?>
+
+    <br>
+
+<?php endforeach; ?>
+ <?php echo $this->form; ?>
+
